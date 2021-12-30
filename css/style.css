@@ -1,0 +1,146 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+list-style: none;;
+}
+.container{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.selection-title {
+    font-family: 'Parisienne', serif;
+    font-weight: 400;
+    font: size 96px; ;
+    line-height: 131px;
+    color:brown;
+}
+.header {
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+.logo {
+    display: block;
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+nav {
+    width: 991px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-list {
+    list-style: none;
+    text-align: center;
+    font-family: 'Princess Sofia', serif; 
+    display: flex;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0 50px;
+  
+}
+.menu-link {
+    font-size: 36px;
+    line-height: 56px;
+    color: black;
+    
+}
+.menu-link:hover {
+    color: coral;
+}
+.menu-link:after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 5px;
+   background: coral;
+    border-radius: 40px;
+   transform-origin: center;
+   transform:scaleX(0);
+   transition: 3s;
+   
+}
+.menu-link:hover::after{
+    width: 100%;
+}
+.main {
+}
+.hero {
+    padding-top: 60px;
+    padding-bottom: 210px;
+    background: url('../img/bread.jpg') center ;
+    position: relative;
+}
+.hero:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.19deg, rgb(235, 85, 30) 39.23%, rgba(250, 195, 158, 0) 95.33%);
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-family: 'Nonito' , serif;
+font-size: 144px;
+font-weight: 300px;
+line-height: 196px;
+color:white;
+margin-bottom: 26px;
+}
+.subtitle {
+    font-family: 'Nonita';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    color: beige;
+    margin-bottom: 145px;
+}
+.btn {
+    background: coral;
+    border-radius: 40px;
+    color: cornsilk;
+    width: 450px;
+    padding: 20px 20px 21px;
+    font-family: 'Nunito' serif;
+    text-align: center;
+    font-style: 36px;
+    line-height: 49px;
+    transition: background .3s;
+}
+.btn:hover {
+background:orangered;
+}
+.buy-btn {
+}
+.adv-item p {
+    font-family: 'Quicksand' , serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: black;
+}
+.adv-img {
+    width: 238px;
+    height: 238px;
+    border: 7px solid white;
+    border-radius: 50%;
+    padding: 40px;
+    padding-top: 37px;
+}
